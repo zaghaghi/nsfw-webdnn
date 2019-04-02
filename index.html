@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebDNN + Yahoo OpenNSFW</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="dist/webdnn.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-center">
+        <h1>WebDNN + Yahoo OpenNSFW</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-center">
+        <input type="text" id="imageurl" placeholder="Image URl" class="image-url"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-center">
+        <button class="primary" onclick="run_url(); return false;" disabled>From URL</button>
+        <button class="primary" onclick="run_file(); return false;" disabled>From File</button>
+      </div>
+    </div>
+    <div class="row" id="image-placeholder">
+    </div>
+  </div>
+</body>
+
+</html>

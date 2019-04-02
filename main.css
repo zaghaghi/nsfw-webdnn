@@ -1,0 +1,19 @@
+.col-center {
+    text-align: center;
+}
+
+.image-url {
+    text-align: center;
+    width: 80%;
+}
+
+.card {
+    padding: 5px 5px;
+}
+
+
+.card.ok {
+    --card-back-color:#308732;
+    --card-fore-color:#f8f8f8;
+    --card-border-color:#226224;
+}
