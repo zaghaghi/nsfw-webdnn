@@ -11,7 +11,7 @@ emrun --no_browser --port 8081 .
 ## Emscripten
 If you don't have emscripten install it as follows. You can read more about it [here](https://webassembly.org/getting-started/developers-guide/).
 ```bash
-git clone https://github.com/juj/emsdk.git
+git clone https://github.com/emscripten-core/emsdk.git
 cd emsdk
 export EMSDKPATH=$(pwd)
 ./emsdk install latest
