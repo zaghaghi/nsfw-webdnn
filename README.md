@@ -1,4 +1,5 @@
 This repository shows how to use [Yahoo OpenNSFW](https://github.com/yahoo/open_nsfw) pretrained model inside a browser to check user uploaded media.
+* [Description](https://virgool.io/@zaghaghi/nsfw-image-classifier-on-browser-kk4bivo1oyja) in Farsi.
 # TL;DR
 To run the model inside a brower do as follows
 ```bash
@@ -18,7 +19,7 @@ export EMSDKPATH=$(pwd)
 ./emsdk activate latest
 ```
 ## Webdnn
-WebDNN is required if you need to use you own model instead of OpenNSFW.
+[WebDNN](https://github.com/mil-tokyo/webdnn) is required if you need to use you own model instead of OpenNSFW.
 ```bash
 conda create -p env python=3.6
 source activate env/
@@ -32,7 +33,7 @@ tar jxf 3.3.3.tar.bz2
 ln -s $(pwd)/eigen-eigen-67e894c6cd8f/Eigen $EMSDKPATH/emscripten/*/system/local/include
 ```
 ## Convert OpenNSFW model
-I used these commands to convert OpenNSFW pretrained model to WebDNN equivalent. You can read more about WebDNN supported models in their [documentations](https://mil-tokyo.github.io/webdnn/docs/)
+I used these commands to convert [OpenNSFW](https://github.com/yahoo/open_nsfw) pretrained model to WebDNN equivalent. You can read more about WebDNN supported models in their [documentations](https://mil-tokyo.github.io/webdnn/docs/)
 ```bash
 git clone https://github.com/yahoo/open_nsfw
 cd open_nsfw/nsfw_model
